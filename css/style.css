@@ -1,0 +1,70 @@
+/*common start*/
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Playfair Display', serif;
+    font-size:16px;
+    font-weight:400;
+    color:#626262;
+}
+/*common end*/
+/*header start*/
+header{
+    padding: 25px 0;
+    /*border:1px solid red;*/
+}
+.container{
+    margin: 0 auto;
+    width:90%;
+    overflow: hidden;
+    /*border:1px solid red;*/
+}
+.logo{
+    margin-top: 12px;
+    width:11%;
+    float:left;
+   /* border: 1px solid red;*/
+}
+.logo a{
+    display:block;
+}
+.logo a img{
+    width: 100%;
+}
+.menu{
+    width:60%;
+    float:right;
+    /*border:1px solid red;*/
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float:left;
+    list-style:none;
+}
+.menu ul li a{
+    margin: 0 60px;
+    padding:1px 2px;
+    display:inline-block; 
+    color:#626262;
+    text-decoration: none;
+    text-transform:uppercase;
+    border-top:1px solid transparent;
+    border-bottom:1px solid transparent;
+}
+.menu ul li:last-child a{
+    margin-right:0;
+}
+.menu ul li a:hover{
+    border-top:1px solid #626262; 
+    border-bottom:1px solid #626262;
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.b_content{}
+.b_content img{
+    width:100%;
+}
+/*banner end*/
